@@ -2,9 +2,9 @@
 Demo of swagger with express app
 
 ## Overview
-Express REST APIs can be created adhering to [OpenAPI spec](https://github.com/OAI/OpenAPI-Specification) using [Swagger editor](http://editor.swagger.io/), [swaggerize-express](https://github.com/krakenjs/swaggerize-express) and [Swagger UI](https://github.com/swagger-api/swagger-ui).
+Express REST APIs can be created adhering to [OpenAPI spec](https://github.com/OAI/OpenAPI-Specification) using [Swagger editor](http://editor.swagger.io/), [swaggerize-express](https://github.com/krakenjs/swaggerize-express), [Swagger UI](https://github.com/swagger-api/swagger-ui), [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express).
 
-    1. Design your APIs using [Swagger editor](http://editor.swagger.io/).
+    1. Design your APIs using Swagger editor
     2. Desgin in YAML mode as it is more readable and download the spec in JSON mode.
     3. Install Yoeman - `npm install -g yo`
     4. Install swaggerize-express generator - `npm install -g generator-swaggerize`
@@ -13,6 +13,6 @@ Express REST APIs can be created adhering to [OpenAPI spec](https://github.com/O
     7. In the generated code, make changes to the express app as per your needs.
     8. This results in a working express app serving your APIs.
     9. To add Swagger UI support in your app, there are two options,
-        a. [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express) to serve default swagger UI
-        b. Directly using [swagger ui](https://github.com/swagger-api/swagger-ui) in a public folder
+        a. swagger-ui-express to serve default swagger UI.
+        b. Directly using swagger ui in a public folder if customization is needed.
 
